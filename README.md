@@ -22,6 +22,11 @@ The Obstacle Detection Car is an autonomous robotic vehicle designed using Ardui
 - Switch
 - Relay
 
+## Software Requirements
+- Arduino IDE
+- Embedded C/C++
+- Motor Control Program
+
 ## Working Principle
 
 The Obstacle Detection Car uses an Arduino Uno and an HC-SR04 ultrasonic sensor to detect nearby obstacles. The ultrasonic sensor continuously measures the distance between the car and objects in its path. When an obstacle is detected within a predefined range, the Arduino sends signals to the motor driver and relay to stop or control the motors, preventing a collision. The vehicle is powered by a battery supply, while the switch is used to turn the system ON or OFF. This setup enables automatic obstacle detection and safe navigation.
